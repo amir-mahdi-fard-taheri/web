@@ -14,15 +14,15 @@ function showSlides() {
   
     slides[slideIndex - 1].style.display = "block";  
    
-    setTimeout(showSlides, 3000); // ÊÛííÑ ÊÕæíÑ åÑ Óå ËÇäíå
+    setTimeout(showSlides, 10000); // ÃŠÃ›Ã­Ã­Ã‘ ÃŠÃ•Ã¦Ã­Ã‘ Ã¥Ã‘ Ã“Ã¥ Ã‹Ã‡Ã¤Ã­Ã¥
 }
 
-// Ï˜ãååÇí ŞÈáí æ ÈÚÏí
+// ÃËœÃ£Ã¥ÂÃ¥Ã‡Ã­ ÃÃˆÃ¡Ã­ Ã¦ ÃˆÃšÃÃ­
 function plusSlides(n) {
-   slideIndex += n -1; // ÈÑÇí ÊäÙíã ÇíäÏ˜Ó ÕÍíÍ
+   slideIndex += n -1; // ÃˆÃ‘Ã‡Ã­ ÃŠÃ¤Ã™Ã­Ã£ Ã‡Ã­Ã¤ÃËœÃ“ Ã•ÃÃ­Ã
    showSlides();
 }
 
-// ÔÑæÚ ÇÓáÇíÏ Ôæ
+// Ã”Ã‘Ã¦Ãš Ã‡Ã“Ã¡Ã‡Ã­Ã Ã”Ã¦
 showSlides();
 
