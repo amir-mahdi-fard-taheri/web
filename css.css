@@ -555,3 +555,46 @@ ul
 {
     padding: 5px;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  width: 100%;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color .6s ease;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
